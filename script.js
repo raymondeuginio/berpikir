@@ -13,7 +13,7 @@ const successBox = document.querySelector('.form-success');
 
 const playfulMessages = [
   'Yeay! Permintaanmu sudah masuk. Kami akan balas dengan detail warna & pita terbaik.',
-  'Peluk busa virtual! Tunggu email manis dari tim EmberSeat ya.',
+  'Peluk busa virtual! Tunggu email manis dari tim ReSeat ya.',
   'Seat-sational choice! Kami siapkan konfirmasi pre-order segera.',
   'Pre-order dummy sukses! Satin pastel siap menyapa inbox kamu.',
   'Kursi lucu sedang menari ke keranjang imajinasimu 💖',

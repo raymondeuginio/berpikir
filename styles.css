@@ -413,6 +413,11 @@ nav a:hover {
   gap: 16px;
 }
 
+.cards-grid.single {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
 .card {
   background: var(--white);
   padding: 18px;
@@ -440,6 +445,20 @@ nav a:hover {
 .card ul {
   padding-left: 18px;
   color: var(--muted);
+}
+
+.why {
+  margin-top: 12px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.why .card ul li + li {
+  margin-top: 8px;
 }
 
 .process .steps {
