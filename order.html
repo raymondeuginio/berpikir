@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pre-order ReSeat | Halaman Terpisah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="order-page">
+  <div class="floating-bubbles" aria-hidden="true">
+    <span class="bubble bubble-1"></span>
+    <span class="bubble bubble-2"></span>
+    <span class="bubble bubble-3"></span>
+    <span class="bubble bubble-4"></span>
+    <span class="bubble bubble-5"></span>
+  </div>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">✨</div>
+      <div>
+        <p class="brand-name">ReSeat</p>
+        <p class="brand-tag">Kursi daur ulang paling gemas</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="index.html#koleksi">Koleksi</a>
+      <a href="index.html#proses">Proses</a>
+      <a href="#" class="pill">Pre-order</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="order-hero reveal-on-scroll">
+      <div>
+        <p class="pill badge">Endpoint terpisah</p>
+        <h1>Isi pre-order ReSeat di sini</h1>
+        <p>Halaman khusus ini dibuat hanya untuk alur pesan. Detail yang kamu isi tetap dummy, tapi kami berikan animasi dan
+ efek manis supaya pengalaman checkout terasa penuh cinta pastel.</p>
+        <div class="order-meta">
+          <div class="meta-card">
+            <p class="meta-title">Batch April</p>
+            <p class="meta-text">Slot terbatas, produksi 3-5 hari kerja.</p>
+          </div>
+          <div class="meta-card">
+            <p class="meta-title">Bonus</p>
+            <p class="meta-text">Pita cadangan & kartu ucapan custom.</p>
+          </div>
+          <div class="meta-card">
+            <p class="meta-title">Status</p>
+            <p class="meta-text">Dummy form, tidak ada pembayaran nyata.</p>
+          </div>
+        </div>
+      </div>
+      <div class="order-panel">
+        <form class="order-form">
+          <label>
+            Nama lengkap
+            <input type="text" placeholder="Tulis nama kamu" required>
+          </label>
+          <label>
+            Email
+            <input type="email" placeholder="email@contoh.com" required>
+          </label>
+          <label>
+            Pilihan warna
+            <select>
+              <option>ReSeat Pink Pastel</option>
+            </select>
+          </label>
+          <label>
+            Jumlah kursi
+            <input type="number" min="1" max="5" value="1">
+          </label>
+          <label>
+            Catatan manis
+            <textarea rows="3" placeholder="Contoh: mau pita ekstra, atau pesan untuk hadiah"></textarea>
+          </label>
+          <button type="submit" class="btn primary w-100">Kirim permintaan</button>
+          <p class="form-note">Semua data hanya simulasi. Kami akan "balas" lewat pesan sukses yang lucu.</p>
+          <div class="form-success" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p class="brand-name">ReSeat</p>
+      <p>Handmade pastel seating untuk momen santai yang lebih manis.</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Kembali ke landing</a>
+      <a href="index.html#koleksi">Koleksi</a>
+      <a href="index.html#proses">Proses</a>
+    </div>
+    <p class="footer-note">Dummy landing page. Semua konten fiktif, tapi rasa empuknya terasa nyata dalam imajinasi. ♡</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
