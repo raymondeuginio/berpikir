@@ -29,18 +29,18 @@
       <a href="#koleksi">Koleksi</a>
       <a href="#proses">Proses</a>
       <a href="#review">Review</a>
-      <a href="#pesan" class="pill">Pesan</a>
+      <a href="order.html" class="pill">Pesan</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero" id="beranda">
+    <section class="hero reveal-on-scroll" id="beranda">
       <div class="hero-text">
         <p class="pill badge">Made with love & upcycling magic</p>
         <h1>EmberSeat: kursi lucu, empuk, dan ramah bumi</h1>
         <p class="lede">Kursi berbahan dasar ember plastik bekas yang disulap jadi tempat duduk super comfy dengan busa premium, kain satin pink pastel, dan pita putih yang manis. Siap jadi spotlight di kamar, studio, atau sudut chill kamu!</p>
         <div class="cta-row">
-          <button class="btn primary" data-scroll="#pesan">Pesan Sekarang</button>
+          <a class="btn primary" href="order.html">Pesan Sekarang</a>
           <button class="btn ghost" data-scroll="#proses">Lihat cara dibuat</button>
         </div>
         <div class="hero-stats">
@@ -80,7 +80,7 @@
       </div>
     </section>
 
-    <section class="chips" aria-label="Warna dan aksen">
+    <section class="chips reveal-on-scroll" aria-label="Warna dan aksen">
       <div class="chip">Pastel Pink</div>
       <div class="chip">Soft Purple</div>
       <div class="chip">Baby Blue</div>
@@ -88,7 +88,7 @@
       <div class="chip">Upcycled Love</div>
     </section>
 
-    <section class="features" id="koleksi">
+    <section class="features reveal-on-scroll" id="koleksi">
       <header class="section-header">
         <p class="pill">Koleksi favorit</p>
         <h2>Setiap EmberSeat punya kepribadian</h2>
@@ -104,7 +104,7 @@
             <li>Satin pink shimmer</li>
             <li>Detail pita melingkar</li>
           </ul>
-          <button class="btn secondary" data-scroll="#pesan">Pesan Bubblegum</button>
+            <a class="btn secondary" href="order.html">Pesan Bubblegum</a>
         </article>
         <article class="card">
           <div class="tag">Sweet Pop</div>
@@ -115,7 +115,7 @@
             <li>Pita putih kecil di tepi</li>
             <li>Kaki anti-slip</li>
           </ul>
-          <button class="btn secondary" data-scroll="#pesan">Pesan Blueberry</button>
+            <a class="btn secondary" href="order.html">Pesan Blueberry</a>
         </article>
         <article class="card">
           <div class="tag">Limited</div>
@@ -126,12 +126,12 @@
             <li>Detail bordir bintang</li>
             <li>Finishing matte satin</li>
           </ul>
-          <button class="btn secondary" data-scroll="#pesan">Pesan Marshmallow</button>
+            <a class="btn secondary" href="order.html">Pesan Marshmallow</a>
         </article>
       </div>
     </section>
 
-    <section class="process" id="proses">
+    <section class="process reveal-on-scroll" id="proses">
       <header class="section-header">
         <p class="pill">Proses manis</p>
         <h2>Daur ulang kreatif yang tetap higienis</h2>
@@ -161,7 +161,7 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery reveal-on-scroll">
       <div class="gallery-card">
         <h3>Match with your cozy corner</h3>
         <p>Letakkan EmberSeat di samping meja belajar, meja rias, atau pojok nonton. Warna pastel bikin mood makin happy.</p>
@@ -176,7 +176,7 @@
       </div>
     </section>
 
-    <section class="reviews" id="review">
+    <section class="reviews reveal-on-scroll" id="review">
       <header class="section-header">
         <p class="pill">Apa kata mereka?</p>
         <h2>Pengalaman duduk yang bikin nagih</h2>
@@ -200,12 +200,12 @@
       </div>
     </section>
 
-    <section class="cta" id="pesan">
+    <section class="cta reveal-on-scroll" id="pesan">
       <div class="cta-content">
         <div>
           <p class="pill">Pre-order batch April</p>
           <h2>Pesan EmberSeat kamu sekarang</h2>
-          <p>Isi detail di bawah, kami akan hubungi untuk konfirmasi warna, aksen, dan slot pengiriman. Semua pesan masih dummy, tapi bayangkan wangi satin baru dan pita putihnya! ✨</p>
+          <p>Halaman utama ini cuma buat cuci mata. Untuk isi data pre-order dummy, kami siapkan halaman khusus dengan formulir playful dan pesan sukses manis.</p>
           <ul class="cta-list">
             <li>Estimasi produksi 3-5 hari</li>
             <li>Bonus pita cadangan untuk setiap pesanan</li>
@@ -218,32 +218,12 @@
             <span class="mini">Pastel Glow</span>
           </div>
         </div>
-        <form class="order-form">
-          <label>
-            Nama lengkap
-            <input type="text" placeholder="Tulis nama kamu" required>
-          </label>
-          <label>
-            Email
-            <input type="email" placeholder="email@contoh.com" required>
-          </label>
-          <label>
-            Pilihan warna
-            <select>
-              <option>Bubblegum Bliss</option>
-              <option>Blueberry Float</option>
-              <option>Marshmallow Glow</option>
-              <option>Surprise Me!</option>
-            </select>
-          </label>
-          <label>
-            Catatan manis
-            <textarea rows="3" placeholder="Contoh: mau pita ekstra, atau pesan untuk hadiah"></textarea>
-          </label>
-          <button type="submit" class="btn primary w-100">Kirim permintaan</button>
-          <p class="form-note">Tidak ada pembayaran sekarang. Kami akan kirim email konfirmasi dulu.</p>
-          <div class="form-success" role="status" aria-live="polite"></div>
-        </form>
+        <div class="cta-card">
+          <p class="cta-subtitle">Siap checkout?</p>
+          <p class="cta-copy">Klik tombol di bawah untuk membuka endpoint pre-order terpisah. Formulirnya tetap dummy, tapi vibes dan animasinya super fun.</p>
+          <a class="btn primary w-100" href="order.html">Buka halaman pre-order</a>
+          <p class="form-note">Kami sengaja pisahkan halaman agar alur "pesan" terasa dedicated.</p>
+        </div>
       </div>
     </section>
   </main>

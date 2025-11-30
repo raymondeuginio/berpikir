@@ -15,6 +15,8 @@ const playfulMessages = [
   'Yeay! Permintaanmu sudah masuk. Kami akan balas dengan detail warna & pita terbaik.',
   'Peluk busa virtual! Tunggu email manis dari tim EmberSeat ya.',
   'Seat-sational choice! Kami siapkan konfirmasi pre-order segera.',
+  'Pre-order dummy sukses! Satin pastel siap menyapa inbox kamu.',
+  'Kursi lucu sedang menari ke keranjang imajinasimu 💖',
 ];
 
 if (orderForm && successBox) {
@@ -38,3 +40,17 @@ window.addEventListener('mousemove', (e) => {
     bubble.style.transform = `translate(${moveX * intensity}px, ${moveY * intensity}px)`;
   });
 });
+
+const reveals = document.querySelectorAll('.reveal-on-scroll');
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  },
+  { threshold: 0.15, rootMargin: '0px 0px -10% 0px' }
+);
+
+reveals.forEach((el) => observer.observe(el));
